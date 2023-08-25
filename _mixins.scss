@@ -1,0 +1,28 @@
+// ------cores------
+$primary-color: #00009C;
+$primary-color-alt: #96d674;
+$secondary-color: #eeeeee;
+$secondary-color-alt: #dcdcdc;
+$black-color: #000;
+$white-color: #fff;
+
+// ------fontes------
+$font-body: "Raleway", sans-serif;
+$font-title: "Anton", sans-serif;
+
+// ------fontes mixins------
+@mixin font ($family, $size, $weight, $color) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin h1 {
+    font-family: $font-body;
+    font-size: 2rem;
+    font-weight: 600;
+    color: $black-color;
+    text-transform: uppercase;
+}
+

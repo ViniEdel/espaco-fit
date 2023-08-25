@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import 'mixins';
+@import 'social';
+@import 'header';
+@import 'firstSection';
+@import 'second__section';
+@import 'thirdSection';
+@import 'fourthSection';
+@import 'fifthSection';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 120rem;
+    margin: 0 auto;
+}

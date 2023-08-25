@@ -1,0 +1,44 @@
+.second__section {
+    max-width: 100%;
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        @include h1;
+    }
+
+    &-itens {
+        margin-top: 60px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .environment__item {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: .5s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            span {
+                @include font ($font-body, 1.5rem, 500, $black-color);
+                
+            }
+    
+            img {
+                width: 80px;
+            }
+        }
+    }
+}

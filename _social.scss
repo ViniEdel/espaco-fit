@@ -1,0 +1,21 @@
+.social {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 50px;
+    text-align: center;
+
+    a {
+        @include font ($font-body, 1rem, 400, $white-color);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+    }
+
+    i {
+        font-size: 1.5rem;
+        margin-left: .5rem;
+    }
+}
